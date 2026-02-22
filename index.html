@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Theme Productivity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Multi-Theme Productivity</h1>
+
+        <div class="clock" id="clock">00:00:00</div>
+
+        <div class="theme-buttons">
+            <button onclick="changeTheme('light')">Light</button>
+            <button onclick="changeTheme('dark')">Dark</button>
+            <button onclick="changeTheme('blue')">Blue</button>
+        </div>
+
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+
+        <ul id="taskList"></ul>
+        <h3 id="count"></h3>
+    </div>
+    <script src=" script.js "></script>
+</body>
+
+</html>
