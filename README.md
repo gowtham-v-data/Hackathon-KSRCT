@@ -1,1 +1,1 @@
-# Hackathon-KSRCT
+# HackaThan KSRCT - TEAM 16
